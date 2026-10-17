@@ -1,0 +1,7 @@
+{
+  "name": "Compartilha Produto",
+  "description": "Monte e compartilhe ofertas de produtos de afiliado no WhatsApp com vídeo e mensagem formatada.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
