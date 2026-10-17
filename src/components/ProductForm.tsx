@@ -261,7 +261,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
             <ExternalLink className="w-3.5 h-3.5 text-emerald-600 dark:text-emerald-400" />
             2. Link de Afiliado
           </span>
-          <span className="text-[11px] text-zinc-400 font-normal lowercase">Shopee, Amazon, Magalu, etc.</span>
+          <span className="text-[11px] text-zinc-400 font-normal lowercase">TikTok Shop</span>
         </label>
 
         <div className="relative flex items-center">
@@ -269,7 +269,7 @@ export const ProductForm: React.FC<ProductFormProps> = ({
             type="url"
             value={formData.affiliateUrl}
             onChange={(e) => onChange({ affiliateUrl: e.target.value })}
-            placeholder="https://s.shopee.com.br/... ou amzn.to/..."
+            placeholder="https://vt.tiktok.com/..."
             className={`w-full py-3 pl-3.5 pr-24 rounded-2xl border text-sm font-mono bg-zinc-50/50 dark:bg-zinc-800/50 text-zinc-900 dark:text-zinc-100 placeholder:text-zinc-400 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 transition-all ${
               !isUrlFormatValid && formData.affiliateUrl
                 ? 'border-rose-400 focus:border-rose-500 bg-rose-50/30'
