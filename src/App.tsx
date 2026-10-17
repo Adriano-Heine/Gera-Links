@@ -6,6 +6,7 @@ import { ProductForm } from './components/ProductForm';
 import { WhatsAppPreview } from './components/WhatsAppPreview';
 import { ShareFallbackModal } from './components/ShareFallbackModal';
 import { Toast, ToastMessage } from './components/Toast';
+import { OfflineIndicator } from './components/OfflineIndicator';
 import { buildWhatsAppMessage } from './utils/messageFormatter';
 import { shareToWhatsApp, copyToClipboard } from './utils/share';
 import { Edit3, MessageCircle, Share2, Copy, Sparkles, Check } from 'lucide-react';
@@ -217,11 +218,14 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-slate-50 dark:bg-zinc-950 text-zinc-900 dark:text-zinc-100 font-sans pb-24 lg:pb-12 transition-colors duration-200">
-      {/* Top Header Simplificado */}
+      {/* Top Header Simplificado com botão de instalação PWA */}
       <Header
         themeMode={themeMode}
         onToggleTheme={handleToggleTheme}
       />
+
+      {/* Indicador de Status Offline */}
+      <OfflineIndicator />
 
       {/* Main Content Area */}
       <main className="flex-1 max-w-7xl w-full mx-auto px-4 py-4 md:py-6">

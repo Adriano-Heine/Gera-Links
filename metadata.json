@@ -1,6 +1,6 @@
 {
   "name": "Compartilha Produto",
-  "description": "Monte e compartilhe ofertas de produtos de afiliado no WhatsApp com vídeo e mensagem formatada.",
+  "description": "PWA para montar e compartilhar ofertas de afiliados no WhatsApp com vídeo vertical 9:16 e mensagem formatada.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
